@@ -5,7 +5,7 @@ print (word3)
 
 
 
-for x in word3:
+for x in word3:    # goes online dictionary
  import urllib.request, re #import needed modules for python3
  url="http://"+ "www" + "." + "merriam-webster" + ".com/dictionary/" #link
  word=x
